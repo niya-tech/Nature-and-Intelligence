@@ -1,0 +1,9 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{margin:0;background:#05070c;color:#e2e8f0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif}
+.glass{background:linear-gradient(145deg,rgba(255,255,255,.06),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.09);backdrop-filter:blur(14px);border-radius:18px}
+.glow{text-shadow:0 0 24px rgba(34,211,238,.45)}
+input[type=range]{accent-color:#22d3ee;width:100%}
+.btn{padding:.4rem .9rem;border-radius:10px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);font-size:.85rem;transition:.2s}
+.btn:hover{background:rgba(34,211,238,.15);border-color:#22d3ee}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.fade{animation:fade .5s ease both}
